@@ -1,0 +1,22 @@
+/* src/index.css */
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+body {
+  background-image: url('your-image-url.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.content-wrapper {
+  background-color: rgba(255, 255, 255, 0.9);
+}
